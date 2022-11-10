@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bca time table</title>
+    <style>
+        *{
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+         main{
+            display: flex;
+           flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+          
+          }
+        
+        
+        table{
+          
+            text-align: center;
+         }
+        th,td{
+            font-size: larger;
+            font-weight: 400;
+        }
+        .header{
+            position: sticky;
+        top: 0;
+        }
+       
+   
+        
+    </style>
+</head>
+<body>
+  
+    <main>
+        <caption class="cap"><h2>Time Table</h2></caption>
+    <div class="container">
+    <table  border="1px" cellpadding="10">
+        <tr>
+            <th>Day</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>Lunch break</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td></td>
+            <td></td>
+            <td>CA-301</td>
+            <td>CA-308</td>
+            <td rowspan="6">LUNCH</td>
+            <td>CA-302</td>
+            <td>CA-304</td>
+            <td>CA-301</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>CA-308</td>
+            <td>ppp(APTI)</td>
+            <td>CA-302</td>
+            <td>CA-303</td>
+            <td colspan="3">CA-311</td>
+           
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>CA-302</td>
+            <td></td>
+            <td>CA-304</td>
+            <td></td>
+            <td>CA-303</td>
+            <td></td>
+            <td>CA-301</td>
+        </tr>
+        <tr>
+            <td>Thrusday</td>
+            <td>CA-308</td>
+            <td colspan="3">CA-310</td>
+            <td>CA-304</td>
+            <td></td>
+            <td>CA-303</td>
+
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td></td>
+            <td></td>
+            <td>CA-301</td>
+            <td>CA-302</td>
+            <td></td>
+            <td>CA-304</td>
+            <td>CA-303</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td></td>
+            <td colspan="2">CA-312</td>
+            <td>CA-308</td>
+            <td></td>
+            <!-- <td>LUNCH</td> -->
+            <td></td>
+            <!-- <td></td> -->
+            <!-- <td>CA-301</td> -->
+        </tr>
+       
+    </table>
+  </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.header{
+  
+}
+nav{
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    background-color:grey;
+    /* font-size: 2vw; */
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+.int{
+    display: inline; 
+    margin: 45px;
+    font-size: 2vw;
+    color: white;
+}
+.listItem{
+    display: inline;
+    margin: 45px;
+    position: relative;
+    left: 90vh;
+    cursor: pointer;
+    font-size: 1.5vw;
+    color: white;
+}
+/* header section complete here */
+
+.img{
+    background: linear-gradient(rgba(57, 56, 56, 0.62),rgba(84, 82, 82, 0.62)),url(./front.jpeg);
+    min-height: 92.7vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerint{
+    color: white;
+    font-size: 2.5vw;
+}
+.content{
+    position: relative;
+    left: 19%;
+    /* right: 40%; */
+    margin: 3.5vh;
+   
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5vw;
+}
+.img2{
+    margin: 3vw;
+    padding: 3vh;
+    width: 40%;
+    height: 30%;
+}
+.collection{
+    display: flex;
+    /* min-height: 200vh; */
+}
+.about{
+    position: relative;
+    left: 19%;
+    /* right: 40%; */
+    margin: 3.5vh;
+   
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5vw;
+   
+}
+footer{
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: grey;
+    color: white;
+}
+.listItem a{
+    text-decoration: none;
+}
+.timetable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.timetable a{
+    padding: 3vh;
+    margin: 2vh;
+    border: 1px solid blue;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
