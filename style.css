@@ -114,3 +114,16 @@ footer{
     text-decoration: none;
     font-size: 1.5vw;
 }
+@media screen and (max-width: 600px) {
+    .listItem{
+      left: 6.5vh;
+      margin: 20px;
+      font-size: 2vw;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .img{
+      min-height: 92.7vh;
+      background-size: cover;
+    }
+  }
